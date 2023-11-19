@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>College of Teacher Education</title>
+</head>
+<body id="body">
+
+    <header>
+        <h1>College of Teacher Education</h1>
+        <button onclick="toggleDarkMode()">Dark Mode</button>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="faculty.html">Faculty</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+		<section class="banner">
+			<h2>Welcome to the College of Teacher Education</h2>
+			<p>Our mission is to prepare the next generation of teachers to inspire and educate students.</p>
+		</section>
+
+		<section class="school">
+            <h2>Vision</h2>
+            <p>CPSU as the leading technology-driven multi-disciplinary University by 2030.</p>
+        </section>
+
+        <section class="cpsu">
+            <h2>Mission</h2>
+            <p>CPSU is committed to produce competent graduates who can generate and extend leading technologies in multi-disciplinary areas beneficial to the community.</p>
+        </section>
+
+		<section class="school">
+			<h2>Goals</h2>
+			<p>To provide efficient, Quality, technology-driven and Gender-Sensitive Products and Services.</p>
+		</section>
+
+		<section class="update">
+			<h2>Latest Updates</h2>
+			<li class="paragraph">No Updates Yet</li>
+			<ul>
+			<li><img src="p-2.webp">
+			</ul>
+		</section>
+
+		<section class="contact">
+			<h2>Contact Us</h2>
+			<p>College of Teacher Education<br>So. Mabuni Bgry. Guadalupe<br>San Carlos City,Negros Occidental</p>
+			<p>Phone: (123) 456-7890<br>Email: cpsu_main@cpsu.edu.ph</p>
+		</section>
+	</main>
+
+	<footer>
+        <p>&copy; 2023 College of Teacher Education</p>
+    </footer>
+
+    <script>
+        function toggleDarkMode() {
+            var body = document.getElementById('body');
+            body.classList.toggle('dark-mode');
+
+            var sections = document.querySelectorAll('.school, .cpsu, .contact');
+            sections.forEach(function (section) {
+                section.classList.toggle('dark-mode');
+            });
+        }
+    </script>
+</body>
+</html>
