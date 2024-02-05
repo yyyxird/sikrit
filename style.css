@@ -1,0 +1,279 @@
+/* Add this to your existing style.css file */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    transition: background-color 0.5s ease;
+}
+
+.dark-mode body {
+    background-color: #333;
+    color: white;
+}
+
+/* Header styles */
+header {
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.5s ease;
+}
+
+.dark-mode header {
+    background-color: #333;
+}
+
+/* Navigation styles */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-out;
+}
+
+.dark-mode nav ul li a {
+    color: #333;
+    background-color: white;
+}
+
+/* Add dark mode styles for other sections if needed */
+.school, .cpsu, .contact, .update{
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.dark-mode .school, .dark-mode .contact {
+    background-color: #444;
+    color: #fff;
+}
+
+.dark-mode .update, .dark-mode .cpsu {
+    background-color: #333;
+    color: #fff;
+}
+/* Rest of your existing styles */
+
+
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #fff;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-out;
+}
+
+nav ul li a:hover {
+    background-color:white;
+    color: blue;
+    border: 1px solid white;
+}
+
+nav ul li a:active {
+    background-color: blue;
+    color: white;
+  }
+
+/* Banner section styles */
+.banner {
+    background-image: url('p-3.jpg'),url('p-4.jfif');
+    background-size: 27%, 29%;
+    background-position: -18% 50%, 122% 50%;
+    color: transparent;
+    background-repeat: no-repeat, no-repeat;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.banner h2 {
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+    color:blue
+}
+
+.banner p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color:black
+}
+
+
+/* mission vision */
+.school {
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    margin: 0px;
+    padding: 20px;
+}
+
+.cpsu {
+    background-color: white;
+    color: blue;
+    border: 1px solid black;
+    margin: 0px;
+    padding: 20px;
+  }
+  
+  
+/* update section styles */
+.update {
+    background-color: white;
+    padding: 50px;
+  }
+  
+  .update h2 {
+    font-size: 36px;
+    margin-top: 50px;
+    color: blue;
+  }
+  
+  .update .paragraph {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+.update ul li img {
+    width: 250px;
+    height: 300px;
+    border-radius: 0;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.update ul li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 5px; 
+}
+  
+
+/* About section styles */
+.about {
+    padding: 50px;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+
+/* Contact section styles */
+/* Style for the contact section */
+.contact {
+    background-color: #f7f7f7;
+    padding: 50px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.contact ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.contact ul li img {
+    display: block;
+    max-width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.contact ul li h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.contact ul li p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+/* Add this to your existing style.css file */
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+
+button:active {
+background-color: blue;
+    color: white;
+}
